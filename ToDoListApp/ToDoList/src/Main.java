@@ -21,7 +21,7 @@ public class Main {
             // Execute the user's choice and return to the main menu
             boolean validChoice = ListManager.parseChoice();
 
-            // After a command is finished, user can choose to go back to main UI or exit
+            // After a method is finished, it waits for user input to go back to the main menu
             if (validChoice) {
             	System.out.println("\nPress any key to return to the main menu");
             	ListManager.getStringInput();
